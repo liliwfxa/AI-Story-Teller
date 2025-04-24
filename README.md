@@ -1,48 +1,21 @@
 # AI-Story-Teller
-Elena Tsaregorodtseva
-* Sunnyvale, CA | ï elena-tsaregorodtseva | § etsar
-Summary
-Data analyst & machine learning enthusiast with 6+ years of experience in data transformation, automation,
-and analytics. Proficient in Python and SQL, with 2+ years of hands-on experience in data analysis,
-machine learning, and A/B testing. Expertise in ETL, data visualization, and business intelligence tools
-Experience
-Nutrien
-Technical Tax Analyst - Data and Automation 2024 - present
-• Build scalable data pipelines using Power Query to automate the extraction, transformation, and
-loading of large datasets, streamlining reporting processes and reducing manual intervention by 80%
-• Pioneer Power Automate flow development to automate event-triggered data processing, eliminating
-manual effort, enhancing robustness, and accelerating decision-making with automated notifications
-PricewaterhouseCoopers (PwC)
-Senior Audit Associate 2018 - 2021
-• Implemented ETL workflows in Alteryx to optimize data processing, cutting procedure time by 90%
-• Delivered 25+ data-driven reports to clients, highlighting issues and recommending improvements
-• Led training sessions on audit basics and advanced Excel, upskilling 20+ new joiners
-Audit Associate 2016 - 2018
-• Developed Power BI dashboards to visualize key business metrics, decreasing reporting time by 20%
-• Identified and implemented improvements in audit methodologies, reducing costs by up to 50%
-Skills
-Libraries and Frameworks: NumPy, pandas, Matplotlib, scikit-learn, statsmodels, SciPy, LightGBM
-Programming Languages: Python, SQL
-Data Visualization: Power BI, Tableau
-Others: A/B Testing, Alteryx, ETL, Excel, Git, Power Automate, Power Query, Snowflake
-Education
-Stanford University, Continuing Studies
-BUS 48 Practical Analytics: Transforming Data into Decisions 2025
-TECH 68 Machine Learning for Business with Python. Grade: A+ 2024
-University of Washington, Michael G. Foster School of Business
-Master of Science in Information Systems. GPA: 3.91/4.00 2023 - 2024
-Saint Petersburg State University
-Master’s Degree in Economics: Accounting, Analysis and Audit 2014 - 2016
-Bachelor’s Degree in Economics: Management 2010 - 2014
-Data Projects (Link)
-Advanced SQL Analytics: Retail Sales and Customer Behavior Analysis (Link)
-• Identified top-selling products along with the most common product combinations in transactions
-• Transformed 2 datasets into a unified table using recursive CTEs and multiple JOIN operations
-• Developed a comprehensive SQL script to automate the process of monthly report generation
-Generative AI Storyteller Application For Kids Of Various Age Groups (Link)
-• Integrated GPT-4 and DALL-E 3 to generate age-appropriate prompt-based stories and visuals
-• Optimized prompt engineering for image generation, improving contextual accuracy and coherence
-• Implemented voice cloning using ElevenLabs’ API to create personalized narrations
+Our application generates stories for children of various age groups and displays them in a book format, complete with generated text and images, and also narrates these stories. Additionally, it includes the option of voice cloning for a personalized storytelling experience.
+
+If the application doesn't work, there might be a need to create a directory - "generated_books".
+
+Lessons Learned:
+
+What went well in our project was the robustness of the story generation based on user prompts, the high quality and contextual accuracy of the image generation, and the functionality allowing users to save their favorite stories or delete ones they did not like. These features combined to provide a highly customizable and user-friendly experience.
+What could have been better in our project was reducing the time it took to generate stories. Faster story generation would have significantly enhanced user engagement by delivering instant gratification and a smoother, more responsive storytelling experience.
+For challenges, one area we focused on improving was our prompt engineering for image generation. Initially, the images generated were sometimes irrelevant or inconsistent with the context of the stories. By refining the prompts and incorporating more specific descriptors and context, we were able to achieve a higher quality and relevance in the images produced, enhancing the overall coherence of the story visuals.
+The following are key areas of focus for future development:
+
+Adding an array of different voice for users to choose from.
+Allowing users to download in PDF format.
+Improving the inference speed.
+Implementing User authentication.
+User-centric customizations and interactions.
+
 ![image](https://github.com/user-attachments/assets/6415768f-8d3e-49bf-8fce-d5805cf09ac8)
 ![image](https://github.com/user-attachments/assets/acf6dad9-b92b-46d7-857b-547326c6fa0b)
 
